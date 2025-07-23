@@ -1,0 +1,18 @@
+﻿=== System-Grundkonfiguration Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Windows: Microsoft Windows 11 Pro Insider Preview
+Build: 26200
+RAM: 31.91 GB
+Prozessor: AMD Ryzen 5 3600 6-Core Processor              
+Konfiguriert am: 19.07.2025 23:07:57
+
+DurchgefÃ¼hrte Konfigurationen:
+âœ“ Windows Updates geprÃ¼ft
+âœ“ Windows Defender optimiert (Cloud-Schutz aktiviert)
+âœ“ Windows Firewall konfiguriert (Dev-Ports hinzugefÃ¼gt)
+âœ“ UAC-Status Ã¼berprÃ¼ft
+âœ“ Systemwiederherstellung aktiviert
+âœ“ Telemetrie optimiert (Level 1)
+âœ“ BitLocker-Status geprÃ¼ft
+âœ“ Microsoft Store Auto-Updates aktiviert
+âœ“ Entwickler-Ausnahmen fÃ¼r Windows Defender hinzugefÃ¼gt

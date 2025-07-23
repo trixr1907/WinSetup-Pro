@@ -1,0 +1,89 @@
+[2025-07-19 22:31:48] [INFO] === Datenbank-Systeme und Backend-Services Setup gestartet ===
+[2025-07-19 22:31:48] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:31:48] [INFO] Installiere MariaDB...
+[2025-07-19 22:31:50] [INFO] MariaDB installiert
+[2025-07-19 22:31:50] [INFO] Installiere PostgreSQL...
+[2025-07-19 22:31:50] [INFO] PostgreSQL installiert
+[2025-07-19 22:31:50] [INFO] Installiere MongoDB...
+[2025-07-19 22:31:52] [INFO] MongoDB installiert
+[2025-07-19 22:31:52] [INFO] Installiere Redis...
+[2025-07-19 22:31:54] [INFO] Redis installiert
+[2025-07-19 22:31:54] [INFO] Installiere SQLite Browser...
+[2025-07-19 22:31:55] [INFO] SQLite Browser installiert
+[2025-07-19 22:31:55] [INFO] Installiere API-Testing-Tools (Postman)...
+[2025-07-19 22:32:19] [INFO] Postman installiert
+[2025-07-19 22:32:19] [INFO] Installiere pgAdmin...
+[2025-07-19 22:32:21] [INFO] pgAdmin installiert
+[2025-07-19 22:32:21] [INFO] Backup-Verzeichnis erstellt: C:\Users\admin\Database-Backups
+[2025-07-19 22:32:21] [INFO] === Setup erfolgreich abgeschlossen ===
+=== Datenbank-Systeme und Backend-Services Setup Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 22:32:21
+
+Installierte Software:
+✓ MariaDB
+✓ PostgreSQL
+✓ MongoDB
+✓ Redis
+✓ SQLite Browser
+✓ Postman
+✓ pgAdmin
+
+Backup-Verzeichnis:
+- C:\Users\admin\Database-Backups
+
+Nächste Schritte:
+- Datenbank-Benutzer und -Berechtigungen konfigurieren
+- Datenbank-Initialisierungsskripte ausführen
+- API-Tests mit Postman erstellen
+[2025-07-19 22:32:21] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\Database-Backend-Setup.log
+[2025-07-19 22:32:21] [INFO] Datenbank-Systeme und Backend-Services Setup abgeschlossen!
+[2025-07-19 23:50:42] [INFO] === Datenbank-Systeme und Backend-Services Setup gestartet ===
+[2025-07-19 23:50:42] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 23:50:42] [INFO] Installiere MariaDB...
+[2025-07-19 23:50:45] [INFO] MariaDB installiert
+[2025-07-19 23:50:45] [INFO] Installiere PostgreSQL...
+[2025-07-19 23:50:47] [INFO] PostgreSQL installiert
+[2025-07-19 23:50:47] [INFO] Installiere MongoDB...
+[2025-07-19 23:50:48] [INFO] MongoDB installiert
+[2025-07-19 23:50:48] [INFO] Installiere Redis...
+[2025-07-19 23:50:50] [INFO] Redis installiert
+[2025-07-19 23:50:50] [INFO] Installiere SQLite Browser...
+[2025-07-19 23:50:51] [INFO] SQLite Browser installiert
+[2025-07-19 23:50:51] [INFO] Installiere API-Testing-Tools (Postman)...
+[2025-07-19 23:50:53] [INFO] Postman installiert
+[2025-07-19 23:50:53] [INFO] Installiere pgAdmin...
+[2025-07-19 23:50:54] [INFO] pgAdmin installiert
+[2025-07-19 23:50:54] [INFO] === Setup erfolgreich abgeschlossen ===
+=== Datenbank-Systeme und Backend-Services Setup Erfolgreich Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 23:50:54
+Aktualisiert am: 2025-07-19 23:52:00
+
+Erfolgreich installierte Software:
+✅ MariaDB Server 11.8.2.0 - Erfolgreich installiert
+✅ PostgreSQL 17.5-3 - Erfolgreich installiert
+✅ MongoDB Server 8.0.11 - Erfolgreich installiert (Update durchgeführt)
+✅ pgAdmin 4 v9.5 - Erfolgreich installiert
+✅ DBeaver Community 25.1.2 - Erfolgreich installiert
+✅ Postman - Bereits installiert
+
+Download-Volumen: ~1.5 GB
+Installations-Status: ✅ Vollständig
+
+Backup-Verzeichnis:
+- C:\Users\admin\Database-Backups
+
+Verfügbare Datenbank-Tools:
+- MariaDB: CLI über Terminal verfügbar
+- PostgreSQL: psql CLI + pgAdmin GUI
+- MongoDB: mongosh CLI + Compass (optional)
+- Universal: DBeaver für alle Datenbanken
+
+Nächste Schritte:
+✓ Alle Datenbanken erfolgreich installiert
+- Datenbank-Services starten und konfigurieren
+- Benutzer und Berechtigungen einrichten
+- Erste Testverbindungen über DBeaver/pgAdmin
+[2025-07-19 23:50:54] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\Database-Backend-Setup.log
+[2025-07-19 23:50:54] [INFO] Datenbank-Systeme und Backend-Services Setup abgeschlossen!

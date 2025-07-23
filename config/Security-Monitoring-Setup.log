@@ -1,0 +1,107 @@
+[2025-07-19 22:39:21] [INFO] === Security und Monitoring-Tools Setup gestartet ===
+[2025-07-19 22:39:21] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:39:21] [INFO] === Antivirus und Endpoint Protection ===
+[2025-07-19 22:39:21] [INFO] Installiere Malwarebytes...
+[2025-07-19 22:40:23] [INFO] Malwarebytes installiert
+[2025-07-19 22:40:23] [INFO] === Network-Monitoring und Penetration-Testing ===
+[2025-07-19 22:40:23] [INFO] Installiere Wireshark...
+[2025-07-19 22:40:24] [INFO] Wireshark installiert
+[2025-07-19 22:40:24] [INFO] Installiere Nmap...
+[2025-07-19 22:40:25] [INFO] Nmap installiert
+[2025-07-19 22:40:25] [INFO] Installiere Advanced Port Scanner...
+[2025-07-19 22:40:27] [INFO] Advanced Port Scanner installiert
+[2025-07-19 22:40:27] [INFO] === Password Management ===
+[2025-07-19 22:40:27] [INFO] Installiere KeePass...
+[2025-07-19 22:40:47] [INFO] KeePass installiert
+[2025-07-19 22:40:47] [INFO] Installiere Bitwarden...
+[2025-07-19 22:41:03] [INFO] Bitwarden installiert
+[2025-07-19 22:41:03] [INFO] === System Monitoring ===
+[2025-07-19 22:41:03] [INFO] Installiere Process Monitor...
+[2025-07-19 22:41:08] [INFO] Process Monitor installiert
+[2025-07-19 22:41:08] [INFO] Installiere Process Explorer...
+[2025-07-19 22:41:14] [INFO] Process Explorer installiert
+[2025-07-19 22:41:14] [INFO] Windows Resource Monitor bereits verfügbar
+[2025-07-19 22:41:14] [INFO] === Log-Analyse und SIEM ===
+[2025-07-19 22:41:14] [INFO] Installiere Event Log Explorer...
+[2025-07-19 22:41:14] [INFO] Event Log Explorer: Manuelle Installation erforderlich von FSPro Labs
+[2025-07-19 22:41:14] [INFO] Syslog Server für Log-Aggregation wird konfiguriert...
+[2025-07-19 22:41:14] [INFO] Kiwi Syslog Server: Manuelle Installation erforderlich
+[2025-07-19 22:41:14] [INFO] === Vulnerability Scanner ===
+[2025-07-19 22:41:14] [INFO] OpenVAS: Empfehlung für Docker-basierte Installation
+[2025-07-19 22:41:14] [INFO] Alternative: Nessus Home für private Nutzung
+[2025-07-19 22:41:14] [INFO] Installiere OWASP ZAP...
+[2025-07-19 22:42:26] [INFO] OWASP ZAP installiert
+[2025-07-19 22:42:26] [INFO] === Firewall und Network Security ===
+[2025-07-19 22:42:26] [INFO] Windows Firewall erweiterte Konfiguration vorbereitet
+[2025-07-19 22:42:26] [INFO] Installiere Simplewall...
+[2025-07-19 22:42:46] [INFO] Simplewall installiert
+[2025-07-19 22:42:46] [INFO] === 2FA und Authentication ===
+[2025-07-19 22:42:46] [INFO] Installiere Microsoft Authenticator (Desktop Version)...
+[2025-07-19 22:42:46] [INFO] WinAuth für 2FA-Codes wird empfohlen (manuelle Installation)
+[2025-07-19 22:42:46] [INFO] Installiere Authy Desktop...
+[2025-07-19 22:42:47] [INFO] Authy Desktop installiert
+[2025-07-19 22:42:47] [INFO] === Security Headers und Web Security Testing ===
+[2025-07-19 22:42:47] [INFO] Browser-Security-Extensions: Manuelle Installation empfohlen
+[2025-07-19 22:42:47] [INFO] - uBlock Origin
+[2025-07-19 22:42:47] [INFO] - Privacy Badger
+[2025-07-19 22:42:47] [INFO] - HTTPS Everywhere
+[2025-07-19 22:42:47] [INFO] === Arbeitsverzeichnisse erstellen ===
+[2025-07-19 22:42:47] [INFO] Security-Tools Verzeichnis erstellt: C:\Users\admin\Security-Tools
+[2025-07-19 22:42:47] [INFO] Security-Logs Verzeichnis erstellt: C:\Users\admin\Security-Logs
+[2025-07-19 22:42:47] [INFO] Penetration-Testing Verzeichnis erstellt: C:\Users\admin\Penetration-Testing
+[2025-07-19 22:42:47] [INFO] === Windows Defender Konfiguration optimieren ===
+[2025-07-19 22:42:48] [INFO] Windows Defender Echtzeitschutz ist aktiviert
+[2025-07-19 22:42:48] [INFO] Windows Defender Cloud-Schutz aktiviert
+[2025-07-19 22:42:48] [INFO] === Setup erfolgreich abgeschlossen ===
+[2025-07-19 22:42:48] [INFO] 
+[2025-07-19 22:42:48] [INFO] Wichtige nächste Schritte:
+[2025-07-19 22:42:48] [INFO] 1. KeePass Datenbank erstellen und Master-Passwort setzen
+[2025-07-19 22:42:48] [INFO] 2. Bitwarden Account einrichten und synchronisieren
+[2025-07-19 22:42:48] [INFO] 3. OWASP ZAP für Web-Security-Tests konfigurieren
+[2025-07-19 22:42:48] [INFO] 4. Nmap-Scans nur in eigenen Netzwerken durchführen
+[2025-07-19 22:42:48] [INFO] 5. Firewall-Regeln mit Simplewall überprüfen
+[2025-07-19 22:42:48] [INFO] 
+[2025-07-19 22:42:48] [INFO] Manuelle Installationen erforderlich:
+[2025-07-19 22:42:48] [INFO] - Event Log Explorer (FSPro Labs)
+[2025-07-19 22:42:48] [INFO] - Kiwi Syslog Server (SolarWinds)
+[2025-07-19 22:42:48] [INFO] - WinAuth für 2FA-Codes
+[2025-07-19 22:42:48] [INFO] - Browser-Security-Extensions
+[2025-07-19 22:42:48] [INFO] 
+=== Security und Monitoring-Tools Setup Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 22:42:48
+
+Installierte Software:
+✓ Malwarebytes (Anti-Malware)
+✓ Wireshark (Network Analysis)
+✓ Nmap (Network Scanning)
+✓ Advanced Port Scanner
+✓ KeePass (Password Manager)
+✓ Bitwarden (Password Manager)
+✓ Process Monitor
+✓ Process Explorer
+✓ OWASP ZAP (Web Security Testing)
+✓ Simplewall (Advanced Firewall)
+✓ Authy Desktop (2FA)
+
+Arbeitsverzeichnisse:
+- Security-Tools: C:\Users\admin\Security-Tools
+- Security-Logs: C:\Users\admin\Security-Logs
+- Penetration-Testing: C:\Users\admin\Penetration-Testing
+
+Windows Defender Status:
+- Echtzeitschutz: True
+- Cloud-Schutz: Aktiviert
+
+Manuelle Installationen empfohlen:
+- Event Log Explorer
+- Kiwi Syslog Server
+- WinAuth
+- Browser-Security-Extensions
+
+Nächste Schritte:
+- Password-Manager konfigurieren
+- Security-Monitoring-Dashboard einrichten
+- Penetration-Testing-Checklisten erstellen
+[2025-07-19 22:42:48] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\Security-Monitoring-Setup.log
+[2025-07-19 22:42:48] [INFO] Security und Monitoring-Tools Setup abgeschlossen!

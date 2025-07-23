@@ -1,0 +1,79 @@
+[2025-07-19 22:25:25] [INFO] === HomeAssistant und IoT-Integration Setup gestartet ===
+[2025-07-19 22:25:25] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:25:42] [INFO] Setup abgebrochen durch Benutzer.
+[2025-07-19 22:25:47] [INFO] === HomeAssistant und IoT-Integration Setup gestartet ===
+[2025-07-19 22:25:48] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:25:48] [INFO] Prüfe Node.js Installation...
+[2025-07-19 22:25:48] [INFO] Node.js bereits installiert: v22.17.1
+[2025-07-19 22:25:48] [INFO] Prüfe Python Installation...
+[2025-07-19 22:25:48] [INFO] Python bereits installiert: Python 3.11.9
+[2025-07-19 22:25:48] [INFO] === HomeAssistant Desktop/Web-Client Setup ===
+[2025-07-19 22:25:48] [INFO] Installiere Home Assistant Core...
+[2025-07-19 22:27:59] [INFO] Home Assistant Core installiert
+[2025-07-19 22:27:59] [INFO] === MQTT-Client für IoT-Kommunikation ===
+[2025-07-19 22:27:59] [INFO] Installiere Mosquitto MQTT Broker...
+[2025-07-19 22:28:02] [INFO] Mosquitto MQTT Broker installiert
+[2025-07-19 22:28:02] [INFO] Installiere MQTT Explorer...
+[2025-07-19 22:28:03] [INFO] MQTT Explorer installiert
+[2025-07-19 22:28:03] [INFO] === Node-RED Installation (lokale Instanz) ===
+[2025-07-19 22:28:03] [INFO] Installiere Node-RED...
+[2025-07-19 22:28:13] [INFO] Node-RED installiert
+[2025-07-19 22:28:13] [INFO] Installiere Node-RED Dashboard...
+[2025-07-19 22:28:16] [INFO] Node-RED Dashboard installiert
+[2025-07-19 22:28:16] [INFO] === ESPHome-Tools für ESP-Geräte ===
+[2025-07-19 22:28:16] [INFO] Installiere ESPHome...
+[2025-07-19 22:29:31] [INFO] ESPHome installiert
+[2025-07-19 22:29:31] [INFO] === YAML-Editor mit HA-Syntax-Highlighting ===
+[2025-07-19 22:29:31] [INFO] Installiere VS Code YAML Extension...
+[2025-07-19 22:29:33] [INFO] VS Code Home Assistant Extensions installiert
+[2025-07-19 22:29:33] [INFO] === IoT-Device-Discovery-Tools ===
+[2025-07-19 22:29:33] [INFO] Installiere Advanced IP Scanner...
+[2025-07-19 22:29:46] [INFO] Advanced IP Scanner installiert
+[2025-07-19 22:29:46] [INFO] Installiere Nmap...
+[2025-07-19 22:30:27] [INFO] Nmap installiert
+[2025-07-19 22:30:27] [INFO] === Network-Sniffer für IoT-Debugging ===
+[2025-07-19 22:30:27] [INFO] Installiere Wireshark...
+[2025-07-19 22:31:10] [INFO] Wireshark installiert
+[2025-07-19 22:31:10] [INFO] === Zusätzliche IoT-Tools ===
+[2025-07-19 22:31:10] [INFO] Installiere PuTTY...
+[2025-07-19 22:31:41] [INFO] PuTTY installiert
+[2025-07-19 22:31:41] [INFO] HomeAssistant Arbeitsverzeichnis erstellt: C:\Users\admin\HomeAssistant
+[2025-07-19 22:31:41] [INFO] Node-RED Arbeitsverzeichnis erstellt: C:\Users\admin\.node-red
+[2025-07-19 22:31:41] [INFO] === Setup erfolgreich abgeschlossen ===
+[2025-07-19 22:31:41] [INFO] 
+[2025-07-19 22:31:41] [INFO] Nächste Schritte:
+[2025-07-19 22:31:41] [INFO] 1. Home Assistant starten: 'hass' im Terminal
+[2025-07-19 22:31:41] [INFO] 2. Node-RED starten: 'node-red' im Terminal
+[2025-07-19 22:31:41] [INFO] 3. MQTT Broker starten: Mosquitto Service prüfen
+[2025-07-19 22:31:41] [INFO] 4. Konfigurationsdateien in C:\Users\admin\HomeAssistant bearbeiten
+[2025-07-19 22:31:41] [INFO] 
+[2025-07-19 22:31:41] [INFO] Wichtige URLs nach dem Start:
+[2025-07-19 22:31:41] [INFO] - Home Assistant: http://localhost:8123
+[2025-07-19 22:31:41] [INFO] - Node-RED: http://localhost:1880
+[2025-07-19 22:31:41] [INFO] 
+=== HomeAssistant und IoT-Integration Setup Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 22:31:41
+
+Installierte Software:
+✓ Home Assistant Core
+✓ Mosquitto MQTT Broker
+✓ MQTT Explorer (MQTTX)
+✓ Node-RED mit Dashboard
+✓ ESPHome
+✓ VS Code Home Assistant Extensions
+✓ Advanced IP Scanner
+✓ Nmap
+✓ Wireshark
+✓ PuTTY
+
+Arbeitsverzeichnisse:
+- HomeAssistant: C:\Users\admin\HomeAssistant
+- Node-RED: C:\Users\admin\.node-red
+
+Nächste Schritte:
+- Zigbee/Z-Wave USB-Dongle-Treiber installieren
+- IoT-Geräte-Inventar erstellen
+- Automatisierungsregeln konfigurieren
+[2025-07-19 22:31:41] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\HomeAssistant-IoT-Setup.log
+[2025-07-19 22:31:41] [INFO] HomeAssistant und IoT-Integration Setup abgeschlossen!

@@ -1,0 +1,109 @@
+[2025-07-19 22:43:29] [INFO] === Backup und Disaster-Recovery Setup gestartet ===
+[2025-07-19 22:43:29] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:43:29] [INFO] === System-Image-Backup-Tools ===
+[2025-07-19 22:43:29] [INFO] Installiere Macrium Reflect Free...
+[2025-07-19 22:43:29] [INFO] Macrium Reflect: Manuelle Installation empfohlen von macrium.com
+[2025-07-19 22:43:29] [INFO] Installiere AOMEI Backupper...
+[2025-07-19 22:44:32] [INFO] AOMEI Backupper installiert
+[2025-07-19 22:44:32] [INFO] Clonezilla: Empfehlung für bootbare Notfall-CD (clonezilla.org)
+[2025-07-19 22:44:32] [INFO] === File-Level Backup Tools ===
+[2025-07-19 22:44:32] [INFO] Installiere FreeFileSync...
+[2025-07-19 22:44:33] [INFO] FreeFileSync installiert
+[2025-07-19 22:44:33] [INFO] Robocopy bereits in Windows verfügbar
+[2025-07-19 22:44:33] [INFO] Installiere 7-Zip...
+[2025-07-19 22:44:35] [INFO] 7-Zip installiert
+[2025-07-19 22:44:35] [INFO] === Cloud-Backup Integration ===
+[2025-07-19 22:44:35] [INFO] OneDrive bereits in Windows verfügbar
+[2025-07-19 22:44:35] [INFO] Installiere Google Drive Desktop...
+[2025-07-19 22:45:22] [INFO] Google Drive Desktop installiert
+[2025-07-19 22:45:22] [INFO] Installiere Dropbox...
+[2025-07-19 22:46:55] [INFO] Dropbox installiert
+[2025-07-19 22:46:55] [INFO] === Versionskontrolle für Konfigurationen ===
+[2025-07-19 22:46:55] [INFO] Git bereits für Code-Repository-Backups verfügbar
+[2025-07-19 22:46:55] [INFO] === Database-Backup-Tools ===
+[2025-07-19 22:46:55] [INFO] Installiere MySQL Workbench...
+[2025-07-19 22:47:24] [INFO] MySQL Workbench installiert
+[2025-07-19 22:47:24] [INFO] pgAdmin bereits für PostgreSQL-Backups verfügbar
+[2025-07-19 22:47:24] [INFO] === Backup-Verzeichnisse und Struktur erstellen ===
+[2025-07-19 22:47:24] [INFO] Hauptbackup-Verzeichnis erstellt: C:\Users\admin\Backups
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\System-Images
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\Database-Dumps
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\Configuration-Files
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\Projects-Archive
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\Documents-Backup
+[2025-07-19 22:47:24] [INFO] Backup-Unterverzeichnis erstellt: C:\Users\admin\Backups\Scripts-Backup
+[2025-07-19 22:47:24] [INFO] === Automatisierte Backup-Skripte erstellen ===
+[2025-07-19 22:47:24] [INFO] Robocopy-Backup-Skript erstellt: C:\Users\admin\Backups\Documents-Backup-Script.bat
+[2025-07-19 22:47:24] [INFO] Database-Backup-Skript erstellt: C:\Users\admin\Backups\Database-Backup-Script.ps1
+[2025-07-19 22:47:24] [INFO] === Windows Backup und Wiederherstellung aktivieren ===
+[2025-07-19 22:47:24] [WARNING] Fehler bei Windows Backup Feature Aktivierung: Der angeforderte Vorgang erfordert erh�hte Rechte.
+
+[2025-07-19 22:47:24] [INFO] === Systemwiederherstellung konfigurieren ===
+[2025-07-19 22:47:24] [INFO] Aktiviere Systemwiederherstellung...
+[2025-07-19 22:47:25] [INFO] Systemwiederherstellung aktiviert und Wiederherstellungspunkt erstellt
+[2025-07-19 22:47:25] [INFO] === Backup-Zeitplanung mit Task Scheduler ===
+[2025-07-19 22:47:28] [INFO] Backup-Task im Task Scheduler erstellt: Daily-Documents-Backup
+[2025-07-19 22:47:28] [INFO] === Setup erfolgreich abgeschlossen ===
+[2025-07-19 22:47:28] [INFO] 
+[2025-07-19 22:47:28] [INFO] Backup-Verzeichnisse erstellt:
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\System-Images
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\Database-Dumps
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\Configuration-Files
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\Projects-Archive
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\Documents-Backup
+[2025-07-19 22:47:28] [INFO] - C:\Users\admin\Backups\Scripts-Backup
+[2025-07-19 22:47:28] [INFO] 
+[2025-07-19 22:47:28] [INFO] Wichtige nächste Schritte:
+[2025-07-19 22:47:28] [INFO] 1. System-Image mit AOMEI Backupper erstellen
+[2025-07-19 22:47:28] [INFO] 2. Cloud-Backup-Clients (OneDrive, Google Drive) konfigurieren
+[2025-07-19 22:47:28] [INFO] 3. Backup-Skripte testen: C:\Users\admin\Backups\Documents-Backup-Script.bat
+[2025-07-19 22:47:28] [INFO] 4. Database-Backup-Skript ausführen: C:\Users\admin\Backups\Database-Backup-Script.ps1
+[2025-07-19 22:47:28] [INFO] 5. Wiederherstellungstest durchführen
+[2025-07-19 22:47:28] [INFO] 
+[2025-07-19 22:47:28] [INFO] Geplante Aufgaben:
+[2025-07-19 22:47:28] [INFO] - Tägliches Dokumenten-Backup um 20:00 Uhr
+[2025-07-19 22:47:28] [INFO] 
+=== Backup und Disaster-Recovery Setup Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 22:47:28
+
+Installierte Software:
+✓ AOMEI Backupper Standard
+✓ FreeFileSync (Synchronisation)
+✓ 7-Zip (Archivierung)
+✓ Google Drive Desktop
+✓ Dropbox
+✓ MySQL Workbench
+
+Backup-Verzeichnisstruktur:
+- Haupt-Backup: C:\Users\admin\Backups
+- System-Images
+ - Database-Dumps
+ - Configuration-Files
+ - Projects-Archive
+ - Documents-Backup
+ - Scripts-Backup
+
+
+Erstellte Skripte:
+- Dokumenten-Backup: C:\Users\admin\Backups\Documents-Backup-Script.bat
+- Database-Backup: C:\Users\admin\Backups\Database-Backup-Script.ps1
+
+Geplante Aufgaben:
+- Daily-Documents-Backup (täglich 20:00 Uhr)
+
+Windows Features:
+- Windows Backup: Aktiviert
+- Systemwiederherstellung: Aktiviert
+
+Manuelle Installationen empfohlen:
+- Macrium Reflect Free
+- Clonezilla (bootbare Notfall-CD)
+
+Nächste Schritte:
+- System-Image-Backup erstellen
+- Cloud-Synchronisation konfigurieren
+- Backup-Verifikation durchführen
+- Disaster-Recovery-Test planen
+[2025-07-19 22:47:28] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\Backup-Recovery-Setup.log
+[2025-07-19 22:47:28] [INFO] Backup und Disaster-Recovery Setup abgeschlossen!

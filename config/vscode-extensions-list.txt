@@ -1,0 +1,51 @@
+# VS Code Extensions für Windows-PostInstall-Setup
+# Automatisch installierbar via: cat extensions-list.txt | xargs -L1 code --install-extension
+
+# Web Development
+esbenp.prettier-vscode
+ms-vscode.vscode-typescript-next
+bradlc.vscode-tailwindcss
+formulahendry.auto-rename-tag
+christian-kohler.path-intellisense
+
+# Git & Version Control
+eamodio.gitlens
+donjayamanne.githistory
+mhutchie.git-graph
+
+# Python Development
+ms-python.python
+ms-python.vscode-pylance
+ms-python.black-formatter
+
+# Node.js & JavaScript
+ms-vscode.vscode-json
+ms-vscode.vscode-eslint
+formulahendry.code-runner
+
+# Docker & Containers
+ms-vscode-remote.remote-containers
+ms-azuretools.vscode-docker
+
+# Home Assistant & IoT
+vscode-home-assistant.vscode-home-assistant
+redhat.vscode-yaml
+
+# Database Tools
+ms-mssql.mssql
+ckolkman.vscode-postgres
+
+# Utilities
+ms-vscode.powershell
+aaron-bond.better-comments
+oderwat.indent-rainbow
+pkief.material-icon-theme
+gruntfuggly.todo-tree
+
+# Markdown & Documentation
+yzhang.markdown-all-in-one
+shd101wyy.markdown-preview-enhanced
+
+# Remote Development
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-wsl

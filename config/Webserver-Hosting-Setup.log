@@ -1,0 +1,69 @@
+[2025-07-19 22:32:27] [INFO] === Webserver und Hosting-Umgebung Setup gestartet ===
+[2025-07-19 22:32:27] [WARNING] WARNUNG: Skript läuft nicht als Administrator. Einige Funktionen könnten fehlschlagen.
+[2025-07-19 22:32:27] [INFO] === XAMPP-Stack Installation ===
+[2025-07-19 22:32:27] [INFO] Installiere XAMPP...
+[2025-07-19 22:36:50] [INFO] XAMPP installiert
+[2025-07-19 22:36:50] [INFO] === Nginx als Reverse-Proxy ===
+[2025-07-19 22:36:50] [INFO] Installiere Nginx...
+[2025-07-19 22:36:51] [INFO] Nginx installiert
+[2025-07-19 22:36:51] [INFO] === PHP und Composer Installation ===
+[2025-07-19 22:36:51] [INFO] Installiere PHP...
+[2025-07-19 22:36:53] [INFO] PHP installiert
+[2025-07-19 22:36:53] [INFO] Installiere Composer...
+[2025-07-19 22:36:54] [INFO] Composer installiert
+[2025-07-19 22:36:54] [INFO] === SSL-Zertifikat-Tools ===
+[2025-07-19 22:36:55] [INFO] Installiere mkcert für lokale SSL-Zertifikate...
+[2025-07-19 22:37:00] [INFO] mkcert installiert
+[2025-07-19 22:37:00] [INFO] Installiere OpenSSL...
+[2025-07-19 22:37:02] [INFO] OpenSSL installiert
+[2025-07-19 22:37:02] [INFO] === Zusätzliche Web-Development-Tools ===
+[2025-07-19 22:37:02] [INFO] Installiere Local by Flywheel...
+[2025-07-19 22:39:01] [INFO] Local by Flywheel installiert
+[2025-07-19 22:39:01] [INFO] Installiere WampServer...
+[2025-07-19 22:39:02] [INFO] WampServer installiert
+[2025-07-19 22:39:02] [INFO] === Arbeitsverzeichnisse erstellen ===
+[2025-07-19 22:39:02] [INFO] Web-Projekte Verzeichnis erstellt: C:\Users\admin\WebProjects
+[2025-07-19 22:39:02] [INFO] SSL-Zertifikate Verzeichnis erstellt: C:\Users\admin\SSL-Certificates
+[2025-07-19 22:39:02] [INFO] Apache Virtual Hosts Verzeichnis erstellt: C:\Users\admin\Apache-VirtualHosts
+[2025-07-19 22:39:02] [INFO] === mkcert Root CA installieren ===
+[2025-07-19 22:39:02] [WARNING] mkcert Root CA Installation fehlgeschlagen: Die Benennung "mkcert" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausf�hrbaren Programms erkannt. �berpr�fen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+[2025-07-19 22:39:02] [INFO] === Setup erfolgreich abgeschlossen ===
+[2025-07-19 22:39:02] [INFO] 
+[2025-07-19 22:39:02] [INFO] Wichtige Pfade:
+[2025-07-19 22:39:02] [INFO] - XAMPP Control Panel: Normalerweise C:\xampp\xampp-control.exe
+[2025-07-19 22:39:02] [INFO] - Web-Projekte: C:\Users\admin\WebProjects
+[2025-07-19 22:39:02] [INFO] - SSL-Zertifikate: C:\Users\admin\SSL-Certificates
+[2025-07-19 22:39:02] [INFO] - Virtual Hosts: C:\Users\admin\Apache-VirtualHosts
+[2025-07-19 22:39:02] [INFO] 
+[2025-07-19 22:39:02] [INFO] Nächste Schritte:
+[2025-07-19 22:39:02] [INFO] 1. XAMPP Control Panel starten und Apache/MySQL aktivieren
+[2025-07-19 22:39:02] [INFO] 2. Lokale Domains in hosts-Datei eintragen
+[2025-07-19 22:39:02] [INFO] 3. Virtual Hosts konfigurieren
+[2025-07-19 22:39:02] [INFO] 4. SSL-Zertifikate für Entwicklungsprojekte erstellen
+[2025-07-19 22:39:02] [INFO] 
+=== Webserver und Hosting-Umgebung Setup Abgeschlossen ===
+Computer: DESKTOP-CI28D0G
+Konfiguriert am: 2025-07-19 22:39:02
+
+Installierte Software:
+✓ XAMPP (Apache, MySQL, PHP, phpMyAdmin)
+✓ Nginx
+✓ PHP (standalone)
+✓ Composer
+✓ mkcert (SSL-Zertifikat-Tool)
+✓ OpenSSL
+✓ Local by Flywheel
+✓ WampServer
+
+Arbeitsverzeichnisse:
+- Web-Projekte: C:\Users\admin\WebProjects
+- SSL-Zertifikate: C:\Users\admin\SSL-Certificates
+- Virtual Hosts: C:\Users\admin\Apache-VirtualHosts
+
+Nächste Schritte:
+- XAMPP Dienste konfigurieren und starten
+- Virtual Hosts für Projekte einrichten
+- SSL-Zertifikate für lokale Domains generieren
+- Local-Domain-Management einrichten
+[2025-07-19 22:39:02] [INFO] Setup-Details in Log-Datei gespeichert: C:\Users\admin\Documents\Windows-PostInstall-Setup\scripts\..\config\Webserver-Hosting-Setup.log
+[2025-07-19 22:39:02] [INFO] Webserver und Hosting-Umgebung Setup abgeschlossen!
