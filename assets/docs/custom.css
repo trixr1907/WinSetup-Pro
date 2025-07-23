@@ -1,0 +1,100 @@
+/* WinSetup-Pro Dokumentations-Styling */
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #1f2937;
+  --background-color: #ffffff;
+  --accent-color: #3b82f6;
+  
+  /* Abstände */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  
+  /* Schriftarten */
+  --font-main: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-code: "Cascadia Code", "Source Code Pro", monospace;
+}
+
+/* Basis-Styling */
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+  line-height: 1.6;
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+code {
+  font-family: var(--font-code);
+  background-color: #f1f5f9;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+}
+
+pre {
+  background-color: #f8fafc;
+  padding: var(--spacing-md);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--spacing-md);
+}
+
+/* Tabellen */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-md) 0;
+}
+
+th, td {
+  padding: var(--spacing-sm);
+  border: 1px solid #e5e7eb;
+}
+
+th {
+  background-color: #f8fafc;
+}
+
+/* Dokumentations-spezifische Elemente */
+.note, .warning, .tip {
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  border-radius: 0.5rem;
+}
+
+.note {
+  background-color: #dbeafe;
+  border-left: 4px solid var(--primary-color);
+}
+
+.warning {
+  background-color: #fee2e2;
+  border-left: 4px solid #dc2626;
+}
+
+.tip {
+  background-color: #dcfce7;
+  border-left: 4px solid #16a34a;
+}
