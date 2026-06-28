@@ -1,0 +1,6 @@
+[2026-02-05 12:00:00] [INFO] === Automation- und Workflow-Setup gestartet ===
+[2026-02-05 12:00:01] [INFO] Installiere: GitHub CLI (winget)
+[2026-02-05 12:00:10] [INFO] Installiere: Azure CLI (winget)
+[2026-02-05 12:00:20] [INFO] Erstelle Verzeichnis fuer Automationsskripte: C:\Users\USERNAME\Automation-Scripts
+[2026-02-05 12:00:21] [INFO] Registriere geplante Tasks (optional, Admin erforderlich)
+[2026-02-05 12:00:22] [INFO] === Automation- und Workflow-Setup abgeschlossen ===

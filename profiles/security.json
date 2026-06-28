@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "security",
+    "description": "Security-Tools (kuratiert; nur wo passend einsetzen)."
+  },
+  "requirements": {
+    "adminRequired": true
+  },
+  "packages": [
+    "zap",
+    "nmap",
+    "wireshark"
+  ],
+  "actions": [],
+  "services": {
+    "database": { "mode": "Skip", "composeFile": "compose/db.compose.yaml" },
+    "web": { "mode": "Skip", "composeFile": "compose/web.compose.yaml" },
+    "homeAssistant": { "mode": "Skip", "composeFile": "compose/ha.compose.yaml" }
+  }
+}

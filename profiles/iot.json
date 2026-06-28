@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "name": "iot",
+    "description": "IoT / Home Assistant (container-first per Default)."
+  },
+  "requirements": {
+    "adminRequired": true
+  },
+  "packages": [
+    "docker-desktop"
+  ],
+  "actions": [],
+  "services": {
+    "database": { "mode": "Skip", "composeFile": "compose/db.compose.yaml" },
+    "web": { "mode": "Skip", "composeFile": "compose/web.compose.yaml" },
+    "homeAssistant": { "mode": "Container", "composeFile": "compose/ha.compose.yaml" }
+  }
+}

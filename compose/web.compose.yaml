@@ -1,0 +1,12 @@
+name: winsetup-web
+
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: winsetup-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - "${WINSETUP_DATA}/web-root:/usr/share/nginx/html:ro"
+    restart: unless-stopped
+

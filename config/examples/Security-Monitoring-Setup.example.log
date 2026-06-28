@@ -1,0 +1,4 @@
+[2026-02-05 12:00:00] [INFO] === Security- und Monitoring-Setup gestartet ===
+[2026-02-05 12:00:01] [INFO] Installiere: OWASP ZAP (optional)
+[2026-02-05 12:00:02] [INFO] Sicher per Default: keine Defender Exclusions / inbound Firewall-Regeln ohne explizites Opt-in
+[2026-02-05 12:00:03] [INFO] === Security- und Monitoring-Setup abgeschlossen ===

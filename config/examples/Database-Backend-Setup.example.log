@@ -1,0 +1,4 @@
+[2026-02-05 12:00:00] [INFO] === Datenbank- und Backend-Setup gestartet ===
+[2026-02-05 12:00:02] [INFO] Default: container-first fuer Datenbanken (empfohlen)
+[2026-02-05 12:00:03] [INFO] Optionale native Installs via winget/choco, wenn explizit aktiviert
+[2026-02-05 12:00:04] [INFO] === Datenbank- und Backend-Setup abgeschlossen ===

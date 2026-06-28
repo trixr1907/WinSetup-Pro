@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "backup",
+    "description": "Backup-/Recovery-Tools (kuratiert)."
+  },
+  "requirements": {
+    "adminRequired": true
+  },
+  "packages": [
+    "7zip",
+    "freefilesync",
+    "aomei-backupper"
+  ],
+  "actions": [],
+  "services": {
+    "database": { "mode": "Skip", "composeFile": "compose/db.compose.yaml" },
+    "web": { "mode": "Skip", "composeFile": "compose/web.compose.yaml" },
+    "homeAssistant": { "mode": "Skip", "composeFile": "compose/ha.compose.yaml" }
+  }
+}

@@ -1,0 +1,47 @@
+# Git-Konfiguration Template
+# Diese Befehle ausführen, um Git zu konfigurieren:
+
+# Globale Benutzer-Konfiguration
+git config --global user.name "Ihr Name"
+git config --global user.email "ihre.email@domain.de"
+
+# Editor-Einstellungen
+git config --global core.editor "code --wait"
+git config --global diff.tool "vscode"
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+# Merge-Tool
+git config --global merge.tool "vscode"
+git config --global mergetool.vscode.cmd "code --wait $MERGED"
+
+# Automatisches Credential Management
+git config --global credential.helper manager-core
+
+# Line Endings (für Windows)
+git config --global core.autocrlf true
+
+# Default Branch Name
+git config --global init.defaultBranch main
+
+# Rebase statt Merge für git pull
+git config --global pull.rebase true
+
+# Push-Verhalten
+git config --global push.default simple
+
+# Farben aktivieren
+git config --global color.ui auto
+
+# Alias-Befehle für bessere Usability
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.unstage "reset HEAD --"
+git config --global alias.last "log -1 HEAD"
+git config --global alias.visual "!gitk"
+
+# SSH-Key Generation (nach der Konfiguration ausführen):
+# ssh-keygen -t rsa -b 4096 -C "ihre.email@domain.de"
+# ssh-add ~/.ssh/id_rsa
+# cat ~/.ssh/id_rsa.pub  # Diesen Key zu GitHub/GitLab hinzufügen

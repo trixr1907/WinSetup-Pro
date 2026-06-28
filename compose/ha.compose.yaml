@@ -1,0 +1,12 @@
+name: winsetup-ha
+
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: winsetup-homeassistant
+    ports:
+      - "8123:8123"
+    volumes:
+      - "${WINSETUP_DATA}/homeassistant:/config"
+    restart: unless-stopped
+

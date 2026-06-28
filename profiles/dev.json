@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "name": "dev",
+    "description": "Entwickler-Workstation Essentials (sicher per Default)."
+  },
+  "requirements": {
+    "adminRequired": true
+  },
+  "packages": [
+    "git",
+    "vscode",
+    "nodejs-lts",
+    "python-3",
+    "dotnet-sdk-8",
+    "docker-desktop",
+    "windows-terminal",
+    "github-cli"
+  ],
+  "actions": [
+    { "id": "folders.dev", "options": {} },
+    { "id": "git.configure", "options": {} },
+    {
+      "id": "firewall.devPorts",
+      "options": { "ports": [3000, 3001, 4200, 5000, 8000, 8080, 8081], "profile": "Private", "remoteAddress": "LocalSubnet" }
+    },
+    {
+      "id": "defender.exclusions",
+      "options": { "paths": ["%USERPROFILE%\\\\Documents\\\\GitHub", "%USERPROFILE%\\\\Documents\\\\Projects", "%USERPROFILE%\\\\.nuget"] }
+    }
+  ],
+  "services": {
+    "database": { "mode": "Skip", "composeFile": "compose/db.compose.yaml" },
+    "web": { "mode": "Skip", "composeFile": "compose/web.compose.yaml" },
+    "homeAssistant": { "mode": "Skip", "composeFile": "compose/ha.compose.yaml" }
+  }
+}

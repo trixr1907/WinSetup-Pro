@@ -1,0 +1,4 @@
+[2026-02-05 12:00:00] [INFO] === Home Assistant / IoT-Setup gestartet ===
+[2026-02-05 12:00:01] [INFO] Default: Home Assistant via Container (empfohlen)
+[2026-02-05 12:00:02] [INFO] Optionaler Native-Mode wird unterstuetzt, ist aber fuer die meisten User nicht empfohlen
+[2026-02-05 12:00:03] [INFO] === Home Assistant / IoT-Setup abgeschlossen ===

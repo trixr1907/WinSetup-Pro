@@ -1,0 +1,14 @@
+Entwicklungsumgebung-Setup - 2026-02-05 12:00:00
+Computer: EXAMPLE-PC
+
+Installierte Software (Beispiel):
+- Git
+- Visual Studio Code
+- Node.js (LTS)
+- Python 3.12
+- .NET SDK 8
+- Docker Desktop
+
+Hinweise:
+- Nutze `-GitUserName`/`-GitUserEmail`, um Git non-interactive zu konfigurieren.
+- Nutze Profile (z.B. `dev`) ueber `scripts/Invoke-WinSetup.ps1`.

@@ -1,0 +1,4 @@
+[2026-02-05 12:00:00] [INFO] === Server- und Virtualisierungs-Setup gestartet ===
+[2026-02-05 12:00:01] [INFO] Waehle genau einen Virtualisierungs-Stack (Hyper-V ODER VirtualBox ODER VMware)
+[2026-02-05 12:00:02] [WARNING] Windows Features aktivieren benoetigt Admin-Rechte und einen Reboot
+[2026-02-05 12:00:03] [INFO] === Server- und Virtualisierungs-Setup abgeschlossen ===

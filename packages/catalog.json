@@ -1,0 +1,218 @@
+[
+  {
+    "key": "chocolatey",
+    "winget": { "id": "chocolatey.chocolatey", "source": "winget", "versionPinned": null },
+    "choco": { "id": "chocolatey", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "Chocolatey CLI (Bootstrap ueber winget; kein remote iex).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "git",
+    "winget": { "id": "Git.Git", "source": "winget", "versionPinned": null },
+    "choco": { "id": "git", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Git fuer Windows.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "vscode",
+    "winget": { "id": "Microsoft.VisualStudioCode", "source": "winget", "versionPinned": null },
+    "choco": { "id": "vscode", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Visual Studio Code (VS Code).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "nodejs-lts",
+    "winget": { "id": "OpenJS.NodeJS.LTS", "source": "winget", "versionPinned": null },
+    "choco": { "id": "nodejs-lts", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Node.js LTS.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "python-3",
+    "winget": { "id": "Python.Python.3.12", "source": "winget", "versionPinned": null },
+    "choco": { "id": "python3", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Python 3 (winget pinnt per Default auf 3.12; choco nutzt das python3 Meta-Paket).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "dotnet-sdk-8",
+    "winget": { "id": "Microsoft.DotNet.SDK.8", "source": "winget", "versionPinned": null },
+    "choco": { "id": "dotnet-8.0-sdk", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": ".NET 8 SDK.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "docker-desktop",
+    "winget": { "id": "Docker.DockerDesktop", "source": "winget", "versionPinned": null },
+    "choco": { "id": "docker-desktop", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "Docker Desktop (erforderlich fuer container-first Services).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "windows-terminal",
+    "winget": { "id": "Microsoft.WindowsTerminal", "source": "msstore", "versionPinned": null },
+    "choco": { "id": "microsoft-windows-terminal", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Windows Terminal.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "github-cli",
+    "winget": { "id": "GitHub.cli", "source": "winget", "versionPinned": null },
+    "choco": { "id": "gh", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "GitHub CLI (gh).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "azure-cli",
+    "winget": { "id": "Microsoft.AzureCLI", "source": "winget", "versionPinned": null },
+    "choco": { "id": "azure-cli", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "Azure CLI.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "kubectl",
+    "winget": { "id": "Kubernetes.kubectl", "source": "winget", "versionPinned": null },
+    "choco": { "id": "kubernetes-cli", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Kubernetes CLI (kubectl).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "terraform",
+    "winget": { "id": "HashiCorp.Terraform", "source": "winget", "versionPinned": null },
+    "choco": { "id": "terraform", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Terraform CLI.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "putty",
+    "winget": { "id": "PuTTY.PuTTY", "source": "winget", "versionPinned": null },
+    "choco": { "id": "putty", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "PuTTY (SSH-Client).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "winscp",
+    "winget": { "id": "WinSCP.WinSCP", "source": "winget", "versionPinned": null },
+    "choco": { "id": "winscp", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "WinSCP (SFTP-Client).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "wireshark",
+    "winget": { "id": "WiresharkFoundation.Wireshark", "source": "winget", "versionPinned": null },
+    "choco": { "id": "wireshark", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "Wireshark (Netzwerk-Analyzer).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "nmap",
+    "winget": { "id": "Insecure.Nmap", "source": "winget", "versionPinned": null },
+    "choco": { "id": "nmap", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "Nmap Netzwerk-Scanner (nur in Netzen einsetzen, die du besitzt/kontrollierst).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "zap",
+    "winget": { "id": "ZAP.ZAP", "source": "winget", "versionPinned": null },
+    "choco": { "id": "zap", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "OWASP ZAP (Zed Attack Proxy).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "7zip",
+    "winget": { "id": "7zip.7zip", "source": "winget", "versionPinned": null },
+    "choco": { "id": "7zip.install", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "7-Zip (Archivierung).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "freefilesync",
+    "winget": { "id": "FreeFileSync.FreeFileSync", "source": "winget", "versionPinned": null },
+    "choco": { "id": "freefilesync", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "FreeFileSync.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "aomei-backupper",
+    "winget": { "id": "AOMEI.Backupper.Standard", "source": "winget", "versionPinned": null },
+    "choco": { "id": "aomei-backupper", "versionPinned": null },
+    "requiresAdmin": true,
+    "notes": "AOMEI Backupper Standard.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "obsidian",
+    "winget": { "id": "Obsidian.Obsidian", "source": "winget", "versionPinned": null },
+    "choco": { "id": "obsidian", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Obsidian (Doku / Wissensdatenbank).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "drawio",
+    "winget": { "id": "JGraph.Draw.io", "source": "winget", "versionPinned": null },
+    "choco": { "id": "drawio", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "Draw.io Desktop.",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "sharex",
+    "winget": { "id": "ShareX.ShareX", "source": "winget", "versionPinned": null },
+    "choco": { "id": "sharex", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "ShareX (Screenshots).",
+    "deprecated": false,
+    "replacementKey": null
+  },
+  {
+    "key": "obs-studio",
+    "winget": { "id": "OBSProject.OBSStudio", "source": "winget", "versionPinned": null },
+    "choco": { "id": "obs-studio", "versionPinned": null },
+    "requiresAdmin": false,
+    "notes": "OBS Studio (Bildschirmaufnahme).",
+    "deprecated": false,
+    "replacementKey": null
+  }
+]

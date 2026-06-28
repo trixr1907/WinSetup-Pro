@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "docs",
+    "description": "Doku-/Wissensmanagement-Tools (optionale Apps)."
+  },
+  "requirements": {
+    "adminRequired": false
+  },
+  "packages": [
+    "obsidian",
+    "drawio",
+    "sharex",
+    "obs-studio"
+  ],
+  "actions": [],
+  "services": {
+    "database": { "mode": "Skip", "composeFile": "compose/db.compose.yaml" },
+    "web": { "mode": "Skip", "composeFile": "compose/web.compose.yaml" },
+    "homeAssistant": { "mode": "Skip", "composeFile": "compose/ha.compose.yaml" }
+  }
+}

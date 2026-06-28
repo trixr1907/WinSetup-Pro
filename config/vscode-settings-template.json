@@ -1,0 +1,27 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "double",
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "files.associations": {
+    "*.yaml": "home-assistant",
+    "*.yml": "home-assistant"
+  },
+  "workbench.colorTheme": "Dark+ (default dark)",
+  "terminal.integrated.fontSize": 13,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "extensions.autoUpdate": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}

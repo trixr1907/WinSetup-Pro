@@ -1,0 +1,49 @@
+name: winsetup-db
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: winsetup-postgres
+    environment:
+      POSTGRES_USER: ${WINSETUP_POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${WINSETUP_POSTGRES_PASSWORD:-change_me}
+      POSTGRES_DB: ${WINSETUP_POSTGRES_DB:-app}
+    ports:
+      - "5432:5432"
+    volumes:
+      - "${WINSETUP_DATA}/postgres:/var/lib/postgresql/data"
+    restart: unless-stopped
+
+  mariadb:
+    image: mariadb:11
+    container_name: winsetup-mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: ${WINSETUP_MARIADB_ROOT_PASSWORD:-change_me}
+      MARIADB_DATABASE: ${WINSETUP_MARIADB_DATABASE:-app}
+      MARIADB_USER: ${WINSETUP_MARIADB_USER:-app}
+      MARIADB_PASSWORD: ${WINSETUP_MARIADB_PASSWORD:-change_me}
+    ports:
+      - "3306:3306"
+    volumes:
+      - "${WINSETUP_DATA}/mariadb:/var/lib/mysql"
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:7
+    container_name: winsetup-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - "${WINSETUP_DATA}/mongodb:/data/db"
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: winsetup-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - "${WINSETUP_DATA}/redis:/data"
+    command: ["redis-server", "--appendonly", "yes"]
+    restart: unless-stopped
+

@@ -1,0 +1,6 @@
+[2026-02-05 12:00:00] [INFO] === Backup- und Disaster-Recovery-Setup gestartet ===
+[2026-02-05 12:00:02] [INFO] Installiere: AOMEI Backupper (winget)
+[2026-02-05 12:00:15] [INFO] Installiere: FreeFileSync (winget)
+[2026-02-05 12:00:25] [INFO] Erstelle Backup-Struktur: C:\Users\USERNAME\Backups\...
+[2026-02-05 12:00:26] [WARNING] Einige Schritte benoetigen Admin-Rechte (z.B. geplante Tasks / Systemwiederherstellung)
+[2026-02-05 12:00:27] [INFO] === Backup- und Disaster-Recovery-Setup abgeschlossen ===

@@ -1,0 +1,4 @@
+[2026-02-05 12:00:00] [INFO] === Webserver- und Hosting-Setup gestartet ===
+[2026-02-05 12:00:01] [INFO] Default: container-first fuer Web-Stack (empfohlen)
+[2026-02-05 12:00:02] [INFO] Optionaler Native-Stack (XAMPP/WAMP) wird unterstuetzt, ist aber per Default deaktiviert
+[2026-02-05 12:00:03] [INFO] === Webserver- und Hosting-Setup abgeschlossen ===
